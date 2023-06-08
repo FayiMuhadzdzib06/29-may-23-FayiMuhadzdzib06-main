@@ -440,6 +440,9 @@ footer p span {
     }
 
     /* home */
+    .home {
+        background-position: -90px 0;
+    }
     .home .content h1 {
         font-size: 30px;
         text-align: center;
@@ -475,6 +478,7 @@ footer p span {
     .message .card .input, .output {
         width: 100%;
         height: max-content;
+        background-image: url('../img/img1.jpg');
         padding: 25px 0;
     }
     .message .card .output .card-output{
