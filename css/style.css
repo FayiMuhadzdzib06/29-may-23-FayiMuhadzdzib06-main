@@ -478,8 +478,11 @@ footer p span {
     .message .card .input, .output {
         width: 100%;
         height: max-content;
-        background-image: url('../img/img1.jpg');
         padding: 25px 0;
+    }
+    .message .card .output {
+        background-image: url('../img/img1.jpg');
+        background-color: none;
     }
     .message .card .output .card-output{
         height: max-content;
