@@ -372,6 +372,7 @@ footer p span {
     nav .gambar {
         width: 40px;
         height: 40px;
+        margin-left: 0;
         background-size: 50px;
         background-position: -5px;
     }
