@@ -107,8 +107,9 @@ nav ul li:hover{
     border-radius: 50px;
     background-color: white;
     font-weight: bold;
-    display: grid;
-    place-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
 }
 .layer .isi {
@@ -391,7 +392,7 @@ footer p span {
         flex-direction: column;
         gap: 15px;
         height: max-content;
-        padding: 10px 0;
+        padding: 10px 0 20px;
         transition: top .5s;
         border-bottom: 1px solid rgba(255, 255, 255, .5);
         z-index: 1;
